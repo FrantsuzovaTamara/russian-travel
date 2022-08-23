@@ -1,0 +1,4 @@
+.header__choice:checked + .header__language-choice {
+    border-bottom: white solid 2px;
+}
+
