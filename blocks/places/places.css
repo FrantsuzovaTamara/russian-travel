@@ -1,56 +1,26 @@
 .places {
     margin: 0 auto;
+    width: calc(100% - 296px);
+    padding: 74px 0 12px;
 }
 
-/*Ширина блока places*/
-
-@media screen and (max-width: 768px) {
-    .places {
-        width: calc(100% - 32px);
-    } 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .places {
-        width: calc(100% - 48px);
-    } 
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .places {
         width: calc(100% - 96px);
-    } 
-}
-
-
-@media screen and (min-width: 1280px) {
-    .places {
-        width: calc(100% - 296px);
-    } 
-}
-
-/*Отступы блока places*/
-
-@media screen and (max-width: 768px) {
-    .places {
-        padding: 64px 0 14px;
-    } 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .places {
-        padding: 88px 0 15px;
-    } 
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .places {
         padding: 92px 0 12px;
     } 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1023px) {
     .places {
-        padding: 74px 0 12px;
+        width: calc(100% - 48px);
+        padding: 88px 0 15px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        width: calc(100%);
+        padding: 64px 0 14px;
     } 
 }

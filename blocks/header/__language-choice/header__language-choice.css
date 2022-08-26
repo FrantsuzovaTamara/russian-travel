@@ -1,4 +1,4 @@
-.header__choice:checked + .header__language-choice {
-    border-bottom: white solid 2px;
+.header__language-choice {
+    color: white;
+    text-decoration: none;
 }
-

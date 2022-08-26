@@ -1,29 +1,26 @@
 .footer__link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-    text-decoration: none;
     margin: 0;
     opacity: 1;
     transition: opacity .5s ease;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 0;
+    padding-right: 18px;
 }
 
-@media screen and (max-width: 768px) {
+.footer__link:last-of-type {
+    padding-right: 0;   
+}
+
+@media screen and (max-width: 767px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;
         padding-bottom: 32px;
         padding-right: 0;
     }
-}
-
-@media screen and (min-width: 768px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 18px;
+    .footer__link:last-of-type {
         padding-bottom: 0;
-        padding-right: 18px;
     }
 }
 
