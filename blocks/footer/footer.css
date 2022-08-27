@@ -11,8 +11,6 @@
     .footer {
         padding: 88px 0 24px;
         width: calc(100% - 48px);
-        justify-content: space-between;
-        flex-direction: row;
     }
 }
 
